@@ -3,11 +3,14 @@ import java.time.LocalTime;
 public class randomNumGenerator {
 
     public static int numGenP(){
+        int r;
         int rNum;
 
         LocalTime time = LocalTime.now();
         rNum = time.getMinute();
-        return rNum/2;
+
+
+        return rNum %10;
 
     }
 
