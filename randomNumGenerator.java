@@ -2,7 +2,7 @@ import java.time.LocalTime;
 
 public class randomNumGenerator {
 
-    public static int numGenP(){
+    public static int numGen(){
         int r;
         int rNum;
 
@@ -15,7 +15,7 @@ public class randomNumGenerator {
     }
 
     public static void main(String[] args) {
-        System.out.println(numGenP());
+        System.out.println("Random Number between 0-9: "+ numGen());
     }
 
 
