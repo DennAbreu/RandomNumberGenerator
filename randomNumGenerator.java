@@ -3,7 +3,6 @@ import java.time.LocalTime;
 public class randomNumGenerator {
 
     public static int numGen(){
-        int r;
         int rNum;
 
         LocalTime time = LocalTime.now();
